@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
-  skipTrailingSlashRedirect: true,
   turbopack: {
     rules: {
       "*.css": {
